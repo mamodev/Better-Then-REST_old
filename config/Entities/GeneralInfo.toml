@@ -1,0 +1,7 @@
+table = "v_sistema_informativo_dex"
+schema = "core"
+id = [ "NO-ID" ]
+
+[data]
+azienda = "text"
+db = "text"

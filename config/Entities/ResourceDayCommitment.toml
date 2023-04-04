@@ -1,0 +1,18 @@
+table = "v_odl_interv_risorse"
+schema = "lase"
+id = [ "interv_ris_id" ]
+
+[data]
+interv_ris_id = "number"
+odl_id = "number"
+interv_id = "number"
+risorsa_id = "number"
+risorsa_dex = "text"
+data_interv = "date"
+dalle_ore_reali = "text?"
+dalle_ore = "text?"
+per_ore = "number?"
+non_eseguito = "text?"
+esecuzione_dex = "text?"
+consuntivo_ore = "text?"
+consuntivo_note = "text?"

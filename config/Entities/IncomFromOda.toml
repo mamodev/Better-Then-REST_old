@@ -1,0 +1,13 @@
+table = "v_oda_da_arrivare"
+schema = "maga"
+id = [ "oda_riga_id" ]
+
+[data]
+forn_id = "number"
+oda_riga_id = "number"
+numero = "text?"
+riferimento = "text?"
+art_id = "number?"
+articolo = "text?"
+um = "text?"
+qta = "number?"

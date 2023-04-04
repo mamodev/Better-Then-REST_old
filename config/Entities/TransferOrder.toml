@@ -1,0 +1,23 @@
+table = "v_odt"
+schema = "maga"
+id = [ "odt_id" ]
+
+[data]
+odt_id = "number?"
+per_odv_riga_id = "number?"
+art_id = "number?"
+qta = "number?"
+emesso_da_id = "number?"
+a_sede_dex = "text?"
+riferimento = "text?"
+a_mag = "text?"
+motivo = "text?"
+emmesso_da_dex = "text?"
+articolo = "text?"
+um = "text?"
+data_creaz = "date?"
+sede = "text?"
+da_sede = "text?"
+da_sede_dex = "text?"
+da_mag = "text?"
+a_sede = "text?"

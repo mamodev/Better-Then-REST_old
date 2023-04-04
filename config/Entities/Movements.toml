@@ -1,0 +1,19 @@
+table = "v_mov_test"
+schema = "maga"
+id = [ "mov_id" ]
+
+[data]
+mov_id = "number"
+sede_cod = "text?"
+causale_cod = "text?"
+sede = "text?"
+causale = "text?"
+controparte = "text?"
+controp_id = "number?"
+data_mov = "text?"
+nr_documento = "text?"
+nr_doc_ricevuto = "text?"
+fatturazione = "text?"
+stato_cod = "text?"
+stato_dex = "text?"
+tipo_doc_mag = "text?"

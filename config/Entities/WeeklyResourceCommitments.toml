@@ -1,0 +1,9 @@
+table = "v_ris_pro_qual"
+schema = "lase"
+id = [ "id" ]
+
+[data]
+risorsa_dex = "text"
+giorno = "text"
+risorsa_id = "number"
+presenze_e_impegni = "text"

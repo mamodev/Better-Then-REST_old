@@ -1,0 +1,21 @@
+table = "v_fatt_da_inc"
+schema = "cont"
+id = [ "fattura_id" ]
+
+[data]
+fattura_id = "number"
+numero = "text?"
+del = "date"
+tipo_doc = "text?"
+deb_cred = "text?"
+tipo_doc_dex = "text?"
+fatt_denom = "text?"
+odv_id = "number?"
+sede = "text?"
+gru_fatt_id = "number?"
+imp_fattura = "number?"
+imp_incasso = "number?"
+commissione = "text?"
+denom = "text?"
+imp_atteso = "number?"
+previsto = "text?"

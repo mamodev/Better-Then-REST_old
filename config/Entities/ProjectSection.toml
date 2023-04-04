@@ -1,0 +1,14 @@
+table = "v_odv_strutt"
+schema = "vend"
+id = [ "struttura_id" ]
+
+[data]
+struttura_id = "number"
+odv_id = "number"
+progetto_id = "number"
+liv1 = "number?"
+liv2 = "number?"
+liv3 = "number?"
+liv4 = "number?"
+dex = "text?"
+presso = "text?"

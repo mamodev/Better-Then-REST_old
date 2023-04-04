@@ -1,0 +1,9 @@
+table = "v_odl_interv_qualif"
+schema = "lase"
+id = [ "qualifica_id" ]
+
+[data]
+interv_id = "number"
+qualifica_id = "number"
+qualifica_dex = "text"
+ore_previste = "number?"

@@ -1,0 +1,10 @@
+table = "v_domini"
+schema = "core"
+id = [ "cod" ]
+
+[data]
+ambito = "text"
+dominio = "text"
+cod = "text"
+dex = "text?"
+seq = "text?"

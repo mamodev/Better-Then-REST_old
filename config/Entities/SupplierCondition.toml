@@ -1,0 +1,14 @@
+table = "v_cond_forn"
+schema = "base"
+id = [ "id" ]
+
+[data]
+id = "number"
+dex = "text?"
+denom = "text"
+fornitore_id = "number"
+eccez_1_da = "date?"
+eccez_1_a = "date?"
+eccez_2_da = "date?"
+eccez_2_a = "date?"
+validita_fine = "date?"

@@ -1,0 +1,12 @@
+table = "v_info_sessione"
+schema = "core"
+id = [ "NO-ID" ]
+
+[data]
+utente = "text"
+sede_sessione = "text"
+sede_iniziale = "text"
+persona_nome = "text"
+sede_iniziale_dex = "text"
+sede_sessione_dex = "text"
+lista_funzioni_autorizzate = "text list"

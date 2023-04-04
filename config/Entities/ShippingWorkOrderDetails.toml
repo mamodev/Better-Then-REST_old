@@ -1,0 +1,47 @@
+table = "v_odl_cons_test"
+schema = "lase"
+id = [ "odl_id" ]
+
+[data]
+odl_id = "number"
+cdl_id = "number?"
+odl_del = "text?"
+sede = "text?"
+sede_dex = "text?"
+riferimento = "text?"
+indirizzo_consegna = "text?"
+centro_lavoro = "text?"
+tipo_odl = "text?"
+tipo_odl_dex = "text?"
+
+  [data.righe_consegna]
+  id = [ "auto" ]
+  schema = "lase"
+  table = "v_odl_cons_righe"
+
+    [data.righe_consegna.data]
+    odl_id = "number"
+    odl_riga_id = "number"
+    odv_riga_id = "number"
+    progetto_id = "number?"
+    struttura_id = "number?"
+    progetto_dex = "text?"
+    att_mag = "text"
+    pezzo_fuori_sede = "bool"
+    pezzo = "text"
+    um = "text"
+    qta = "number"
+
+  [data.interventi_consegna]
+  id = [ "auto" ]
+  schema = "lase"
+  table = "v_odl_cons_interv"
+
+    [data.interventi_consegna.data]
+    odl_id = "number"
+    interv_dex = "text?"
+    data_interv = "date?"
+    orario_da = "text?"
+    appunt_preso = "bool"
+    chiuso = "bool"
+    terminato = "bool?"

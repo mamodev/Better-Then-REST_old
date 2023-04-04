@@ -1,0 +1,18 @@
+table = "v_lista_fatt_cli"
+schema = "cont"
+id = [ "fattura_id" ]
+
+[data]
+fattura_id = "number"
+numero = "text?"
+tipo_doc = "text?"
+tipo_doc_dex = "text?"
+acc_o_vend = "text?"
+fatt_denom = "text?"
+odv_numero = "text?"
+sede = "text?"
+del = "date?"
+sede_dex = "text?"
+gru_fatt_id = "number?"
+imp_fattura = "number?"
+imp_incasso = "number?"

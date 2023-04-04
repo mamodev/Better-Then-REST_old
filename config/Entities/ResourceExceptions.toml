@@ -1,0 +1,20 @@
+table = "v_ris_eccez"
+schema = "lase"
+id = [ "id" ]
+
+[data]
+id = "number"
+risorsa_id = "number"
+classe = "text?"
+risorsa_dex = "text"
+giorni_settimana = "text?"
+tipo_cod = "text?"
+tipo_dex = "text?"
+causale = "text?"
+fino_a = "date?"
+data_da = "date"
+ore_giorno = "number?"
+ore_modulo = "number?"
+ore = "number?"
+nota = "text?"
+storica = "bool"

@@ -1,0 +1,7 @@
+table = "v_forn_no_cond"
+schema = "base"
+id = [ "fornitore_id" ]
+
+[data]
+fornitore_id = "number"
+denom = "text"

@@ -1,0 +1,11 @@
+table = "v_categ_articoli"
+schema = "base"
+id = [ "id" ]
+
+[data]
+seq = "text"
+id = "number"
+piano = "text?"
+cod = "text"
+dex = "text?"
+associabile = "bool"

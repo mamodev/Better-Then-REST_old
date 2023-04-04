@@ -1,0 +1,8 @@
+table = "v_qualifiche"
+schema = "base"
+id = [ "id" ]
+
+[data]
+id = "number"
+dex = "text"
+prezzo_orario = "number"

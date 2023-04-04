@@ -1,0 +1,18 @@
+table = "v_interv_odl_cons"
+schema = "lase"
+id = [ "interv_id" ]
+
+[data]
+interv_id = "number"
+odl_id = "number"
+data_interv = "date?"
+fino_a = "date?"
+orario_da = "text?"
+dex = "text?"
+tipo = "text?"
+sede = "text?"
+sede_dex = "text?"
+numero_odv = "text?"
+data_cons_ordine = "date?"
+cliente_odv = "text?"
+appunt_preso = "bool"

@@ -1,0 +1,20 @@
+table = "v_odl_righe"
+schema = "lase"
+id = [ "odl_riga_id" ]
+
+[data]
+odl_id = "number"
+odl_riga_id = "number"
+odv_riga_id = "number"
+progetto_id = "number?"
+struttura_id = "number?"
+progetto_dex = "text?"
+item_prefix = "text?"
+item_dex = "text?"
+item_dex2 = "text?"
+um = "text"
+qta = "number"
+fonte = "text"
+tipo_art = "text"
+tipo_riga = "text"
+ore_per_unita = "number?"

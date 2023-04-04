@@ -1,0 +1,17 @@
+table = "v_giacenze"
+schema = "maga"
+id = [ "NO-ID" ]
+
+[data]
+sede_cod = "text?"
+sede = "text?"
+magazzino_cod = "text?"
+magazzino = "text?"
+art_id = "number?"
+articolo = "text?"
+um = "text"
+qta = "number?"
+qta_impegnata = "number?"
+lotto_id = "number?"
+riferimento = "text?"
+ubicaz_id = "number?"

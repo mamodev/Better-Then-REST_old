@@ -1,0 +1,15 @@
+table = "v_odl_sl_compon"
+schema = "lase"
+id = [ "componente_id" ]
+
+[data]
+odl_id = "number"
+progetto_id = "number?"
+struttura_id = "number?"
+odl_riga_prodotta_id = "number"
+componente_id = "number"
+qta = "number"
+progetto_dex = "text?"
+semilavorato_dex = "text?"
+componente_dex = "text"
+um = "text"

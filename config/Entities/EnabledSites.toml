@@ -1,0 +1,7 @@
+table = "v_sedi_per_utente"
+schema = "core"
+id = [ "id" ]
+
+[data]
+sede = "text"
+dexb = "text"
